@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userInterface</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="nav">
+        <div class="icon">LOGO</div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+    </div>
+    <div class="userList">
+        <h1>My Form</h1>
+        <p>Add, update, delete and read users</p>
+        <ul>
+            <li>
+                <span class="name">Wamutitu</span>
+                <span class="idNo">idNumber</span>
+                <span class="country">country</span>
+                <span class="delete">delete</span>
+            </li>
+            <li>
+                <span class="name">Samuel</span>
+                <span class="idNo">idNumber</span>
+                <span class="country">country</span>
+                <span class="delete">delete</span>
+            </li>
+            <li>
+                <span class="name">Queens</span>
+                <span class="idNo">idNumber</span>
+                <span class="country">country</span>
+                <span class="delete">delete</span>
+            </li>
+             
+        </ul>
+
+        <form class="form">
+            <input type="text" id="name" placeholder="fullName"><br>
+            <input type="number" id="idNumber" placeholder="idNumber"><br>
+            <input type="radio" id="country" value="Kenya">
+            <label for="kenya">Kenya</label><br>
+            <input type="radio"  id="country" value="">
+            <label for="uganda">Uganda</label><br>
+            <input type="radio"  id="country" value="JavaScript">
+            <label for="Tanzania">Tanzania</label><br><br>
+
+            <submit>add Person</submit>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>

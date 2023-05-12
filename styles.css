@@ -1,0 +1,41 @@
+.wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray; 
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  .userList ul {
+    list-style: none;
+  }
+  .userList li {
+    padding: 10px;
+  }
+  .delete{
+    float: right;
+    border: 1px solid black; 
+  }
+  .form{
+    background-color: aqua;
+    padding: 20px;
+    git init
+  }
+  .form submit{
+    background-color: beige;
+    padding: 10px;
+  }
